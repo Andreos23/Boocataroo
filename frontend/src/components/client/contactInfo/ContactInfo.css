@@ -1,0 +1,129 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
+}
+
+.contact-box {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 7rem;
+  /* height: 60%; */
+  width: 100%;
+  border-radius: 7%;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  /* border: black solid 3px; */
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+  row-gap: 3rem;
+}
+
+.contact-btns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 3rem;
+}
+
+.contact-btn {
+  background-color: #68865f;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 40px;
+  width: 17rem;
+  padding-bottom: 2px;
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.contact-btn:disabled {
+  background-color: rgb(172, 163, 123);
+}
+
+/*   
+  .job-btns {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .chef-headline {
+    margin-top: 3rem;
+    align-self: center;
+    font-family: "Satisfy";
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  
+  .chef-header {
+    margin-left: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  .landing-btn-next {
+    background-color: #68865f;
+    border: none;
+    color: white;
+    align-self: flex-end;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 13px;
+    width: 8rem;
+    padding-bottom: 2px;
+    margin-bottom: 2rem;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  }
+  
+  .landing-btn-next:hover {
+    color: yellow;
+    text-decoration: none;
+  }
+  
+  /* .location-header {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 2.5rem;
+    width: 100%;
+    font-weight: 500;
+  }
+  
+  .location-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .location-btn {
+    background-color: #68865f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 100px;
+    width: 10rem;
+    height: 10rem;
+    padding-bottom: 4px;
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.25);
+  }
+  
+  .btn-text-location {
+    font-weight: bold;
+    font-size: 2rem;
+  } */
