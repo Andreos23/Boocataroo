@@ -77,15 +77,20 @@ class UserController extends Controller
             $ads = $new_ads;
         }
 
+        $email = false;
         if ($request->has('email') && $request->get('email') == true) {
-            // 
+            $email = true;
         }
 
+        $phone = false;
         if ($request->has('phone') && $request->get('phone') == true) {
-            // 
+            $phone = true;
         }
 
-        
+        DB::table('statistics')->insert(
+            ['email' => $email, 'phone' => $phone]
+        );
+
         return response()->json($ads);
     }
 }
